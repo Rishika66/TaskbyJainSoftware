@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.form-container{
+    min-height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    padding-bottom: 200px;
+    background-color:#e5e7eb;
+}
+.form-container form {
+      padding :10px;
+      border-radius:5px;
+      box-shadow: 0 5px 10px rgba(0,0,0,1);
+      background-color: #fff;
+      text-align: center;
+
+}
+.form-container form h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom:10px ;
+    color: #333;
+    font-weight: 600;
+    
+}
+.form-container form input,
+.form-container form select
+{
+    width:100%;
+    padding: 10px 5px;
+    font-size: 17px;
+    margin:8px 0;
+    background-color: #e5e7eb;
+
+}
+.form-container form .form-btn{
+    background-color: #947df8;
+    color:#190b55;
+    text-transform:capitalize ;
+    font-size:25px;
+    cursor:poiner;
+
+}
+.form-container form .form-btn:hover{
+    background:#190b55;
+    color: #fff;
+}
